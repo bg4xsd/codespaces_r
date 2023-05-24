@@ -4,6 +4,8 @@
   "image":  "ghcr.io/rocker-org/r-ver:4.2.3",
   //"image": "ghcr.io/rocker-org/devcontainer/r-ver:4",
   "waitFor": "onCreateCommand",
+  "updateContentCommand": "",
+  "postCreateCommand": "",
   "customizations": {
      "vscode": {
          "extensions": [

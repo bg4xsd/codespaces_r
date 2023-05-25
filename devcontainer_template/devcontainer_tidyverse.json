@@ -4,12 +4,16 @@
     // ML will be installed with cuda.
     // tidyverse has two version, devcontainer is under heavily developing.
     "name": "R4",
-    "image":  "ghcr.io/rocker-org/tidyverse:4.2.3",
-    //"image":  "ghcr.io/rocker-org/tidyverse:4.3",
     //"image":  "ghcr.io/rocker-org/r-ver:4.2.3",
     //"image": "ghcr.io/rocker-org/devcontainer/r-ver:4",
+    // Seems not work with Jupyter plugin !!!
+    "image":  "ghcr.io/rocker-org/tidyverse:4.2.3",
+    //"image":  "ghcr.io/rocker-org/tidyverse:4.3",
     //"image":  "ghcr.io/rocker-org/devcontainer/tidyverse:4.2",
     //"image":  "ghcr.io/rocker-org/ml-verse:4.3",
+    "hostRequirements": {
+        "cpus": 4
+    },
     "waitFor": "onCreateCommand",
     "updateContentCommand": "",
     "postCreateCommand": "",

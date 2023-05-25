@@ -14,3 +14,6 @@ Codespace template for R languange, create R project repository by using this te
 6. rocker/verse has already installed TeX Live and some publishing-related R packages, in addition to the packages installed in rocker/tidyverse.
 
 7. I recommend to use rocker/tidyverse for general study purpose, which includes the tidyverse package, the devtools package, the rmarkdown package, some R Database Interface packages, the data.table package, the fst package, and the Apache Arrow R package. Check https://rocker-project.org/images/ for your images. If you like, try https://rocker-project.org/images/#the-versioned-stack for stable images. The URL can be found at https://github.com/orgs/rocker-org/packages?repo_name=rocker-versioned2.
+
+Result:
+   It should work well, but most time, you will meet lots of problem. Finaly, I turn to Python env with conda, and install R by conda.

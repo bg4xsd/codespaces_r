@@ -16,4 +16,10 @@ Codespace template for R languange, create R project repository by using this te
 7. I recommend to use rocker/tidyverse for general study purpose, which includes the tidyverse package, the devtools package, the rmarkdown package, some R Database Interface packages, the data.table package, the fst package, and the Apache Arrow R package. Check https://rocker-project.org/images/ for your images. If you like, try https://rocker-project.org/images/#the-versioned-stack for stable images. The URL can be found at https://github.com/orgs/rocker-org/packages?repo_name=rocker-versioned2.
 
 Result:
-   It should work well, but most time, you will meet lots of problem. Finaly, I turn to Python env with conda, and install R by conda.
+
+   It DO work and should work well, but most time, you will meet lots of problem, extrally when you use devcontainer-feature to install jupyter. You have to try several times, I guess it is not the problem of rocker-project, it would be some bugs of Cache system from Github, . Anyway, there is another choice, turn to Python env with conda, and install R by conda.
+   
+   Good luck.
+
+Last update: by BG4XSD @ 2023.05.26 
+

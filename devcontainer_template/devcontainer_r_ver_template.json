@@ -1,4 +1,5 @@
 {
+	// Demo from rocker-org, test but not work !
 	"image": "ghcr.io/rocker-org/devcontainer/r-ver:4",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
